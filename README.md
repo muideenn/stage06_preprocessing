@@ -22,10 +22,10 @@ This stage turns the in-class patterns for filling, dropping, and scaling into *
 - **Reproducibility**: All functions are pure (return new dataframes). `normalize_data` also returns fitted parameters per column; persist these if you need to transform future/holdout data exactly the same way.
 
 ### Reproducibility Checklist
-- ✅ Notebook runs end-to-end without manual edits
-- ✅ Cleaned file saved to `data/processed/`
-- ✅ Functions have docstrings & clear parameters
-- ✅ README explains design choices
+-  Notebook runs end-to-end without manual edits
+-  Cleaned file saved to `data/processed/`
+-  Functions have docstrings & clear parameters
+-  README explains design choices
 
 ### Submission Artifacts
 - `src/cleaning.py`
